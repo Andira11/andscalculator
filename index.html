@@ -1,165 +1,53 @@
 <!DOCTYPE html>
 <html>
-<title>Andira CV</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-a {
-  text-decoration: none;
-}
-.ands-11 {
-  width:50%;
-	box-sizing: border-box;
-	padding:5px;
-	float: left;
-	text-align: center;
-  font-size: 11px;
-	margin-bottom: 15px;
-}
-.ands-11 img {
-	width:100%;
-}
-.ands-11 a:hover img {
-	transform: scale(1.2);
-	transition: 1s;
-	color: brown;
-}
-</style>
-<body class="w3-light-whitesmoke">
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
-  <div class="w3-row-padding">
-    <div class="w3-third">
-      <div class="w3-white w3-text-blue w3-card-4">
-        <div class="w3-display-container">
-          <img src="http://bit.ly/AndsProfil" style="width:100%" alt="Avatar">
-          <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2 style="color:white">AGUS ANDIRA, S.Sy</h2>
-          </div>
-        </div>
-        <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-blue"></i>Front End Web Development</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-blue"></i>Bengkalis, Riau-Indonesia</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue"></i>anexist2@gmail.com</p>
-          <hr>
-          <section id="portfolio" position: relative;">
-            <div class="container">
-              <h5>COMPETENCY TRAINING</h5>
-              <div class="ands-11">
-                <a href="http://bit.ly/AndsHtmlCss">
-                  <img src="http://bit.ly/AndsHtmlCss">
-                  <span>HTML & CSS</span>
-                </a>
-              </div>
-              <div class="ands-11">
-                <a href="http://bit.ly/AndsJS">
-                  <img src="http://bit.ly/AndsJS">
-                  <span>JAVASCRIPT</span>
-                </a>
-              </div>
-              <div class="ands-11">
-                <a href="http://bit.ly/AndsCLine">
-                  <img src="http://bit.ly/AndsCLine">
-                  <span>COMMAND LINE</span>
-                </a>
-              </div>
-              <div class="ands-11">
-                <a href="http://bit.ly/AndsGit">
-                  <img src="http://bit.ly/AndsGit">
-                  <span>GIT</span>
-                </a>
-              </div>
-              <div class="ands-11">
-                <a href="http://bit.ly/AndsPDigital">
-                  <img src="http://bit.ly/AndsPDigital">
-                  <span>PANDU DIGITAL</span>
-                </a>
-              </div>
-              <div class="ands-11">
-                <a href="http://bit.ly/AndsFLD">
-                  <img src="http://bit.ly/AndsFLD">
-                  <span>FUNDAMENTAL LITERASI DIGITAL</span>
-                </a>
-              </div>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Online Calculator">
+        <meta name="keywords" content="Calculator">
+        <meta name="autor" content="Andira Official">
+        <title>Calculator</title>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <center>
+        <h1>ONLINE CALCULATOR</h1>
+        </center>
+        <div class="calculator">
+            <input type="text" class="calculator-screen" value="0" disabled />
+            <div class="calculator-keys">
+                <div class="row">
+                    <button class="all-clear">AC</button>
+                    <button class="percentage">%</button>
+                    <button class="operator" value="/">&divide;</button>
+                </div>
+                <div class="row">
+                    <button class="number" value="7">7</button>
+                    <button class="number" value="8">8</button>
+                    <button class="number" value="9">9</button>
+                    <button class="operator" value="*">&times;</button>
+                </div>
+                <div class="row">
+                    <button class="number" value="4">4</button>
+                    <button class="number" value="5">5</button>
+                    <button class="number" value="6">6</button>
+                    <button class="operator" value="-">-</button>
+                </div>
+                <div class="row">
+                    <button class="number" value="1">1</button>
+                    <button class="number" value="2">2</button>
+                    <button class="number" value="3">3</button>
+                    <button class="operator" value="+">+</button>
+                </div>
+                <div class="row">
+                    <button class="number zero-btn" value="0">0</button>
+                    <button class="decimal" value=".">.</button>
+                    <button class="equal-sign">=</button>
+                </div>
             </div>
-          </section>
-          <br>
-          <p class="w3-large w3-text-theme">LANGUAGES</p>
-          <p>English</p>
-          <div class="w3-light-blue w3-round-xlarge">
-            <div class="w3-round-xlarge w3-blue" style="height:15px;width:100%"></div>
-          </div>
-          <p>Arabic</p>
-          <div class="w3-light-blue w3-round-xlarge">
-            <div class="w3-round-xlarge w3-blue" style="height:15px;width:100%"></div>
-          </div>
-          <br>
+            <div class="clear"></div>
         </div>
-      </div><br>
-    </div>
-    <div class="w3-twothird">
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-blue w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Administration and Finance Staff / SMPN 1 Mempura Siak Regency</b></h5>
-          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2017 - Jun 2020</h6>
-          <p>Program Analysis and Preparation of Activity and Financial Report.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Deputy Principal for Curriculum and Learning and Teacher/ MDTW Adz-Dzikra SMPN 1 Mempura</b></h5>
-          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 2016 - Mei 2019</h6>
-          <p>Develop a Schedule of Activities and Learning. Analysis of Acttivities and Model of Learning as well as Evaluation and Follow-up on Activities and Learning.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Deputy Principal for Curriculum and Learning and Teacher / SMPs-SMAs IT Al-Fath Mempura</b></h5>
-          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul 2015 - Mar 2017</h6>
-          <p>Develop a Schedule of Activities and Learning. Analysis of Acttivities and Model of Learning as well as Evaluation and Follow-up on Activities and Learning.</p><br>
-        </div>
-      </div>
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-blue w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>School of Islamic Advance Learning Tafaqquh Fiddin Dumai</b></h5>
-          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2008 - 2012</h6>
-          <p>Bachelor Degree of Syari'ah, Islamic Economics Muamalah Study Program</p>
-          <hr>
-        </div>
-      </div>
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-blue w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Competency Training</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Ministry of Communication and Informatics, Republic of Indonesia</b></h5>
-          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2021</h6>
-          <p>Front End Web Development, Professional Academy Digitalent Scholarship</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Ministry of Communication and Informatics, Republic of Indonesia</b></h5>
-          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020</h6>
-          <p>Pandu Digital - Interactive Learning Management System and Entrephreunership</p>
-          <hr>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<footer class="w3-container w3-blue w3-center w3-margin-top padding: 2px" >
-  <p>Follow My Social Media</p>
-  <a href="http://bit.ly/AndsFacebook">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  </a>
-  <a href="http://bit.ly/AndsInstagram">
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-  </a>
-  <a href="http://bit.ly/AndsTwitter">
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-  </a>
-  <p>Copyright &copy; 2021 - Andira Official</p>
-</footer>
-</body>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
 </html>
